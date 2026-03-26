@@ -30,10 +30,10 @@ clear;clear;clear
 
   # // Banner
 echo -e "${YELLOW}----------------------------------------------------------${NC}"
-echo -e "  Welcome To TryDax Service ${YELLOW}(${NC}${green} Stable Edition ${NC}${YELLOW})${NC}"
+echo -e "  Welcome To TryDax Service's ${YELLOW}(${NC}${green} Stable Edition ${NC}${YELLOW})${NC}"
 echo -e " This Will Quick Setup VPN Server On Your Server"
-echo -e "  Auther : ${green}TryDax Store ® ${NC}${YELLOW}(${NC} ${green} TryDax Store ${NC}${YELLOW})${NC}"
-echo -e " © Recode By My Self TryDax Store ${YELLOW}(${NC} 2023 ${YELLOW})${NC}"
+echo -e "  Author : ${green}Rizx Official® ${NC}${YELLOW}(${NC} ${green} Shadow Tunneling ${NC}${YELLOW})${NC}"
+echo -e " © Recode By My Self Rizx Official${YELLOW}(${NC} 2020 ${YELLOW})${NC}"
 echo -e "${YELLOW}----------------------------------------------------------${NC}"
 echo ""
 sleep 2
@@ -510,7 +510,7 @@ print_success "Password SSH"
 function udp_mini(){
 clear
 print_install "Memasang Service Limit Quota"
-wget raw.githubusercontent.com/rizkystorevip/Rizky/main/limit/limit.sh && chmod +x limit.sh && ./limit.sh
+wget raw.githubusercontent.com/try936xv2onsywxt2oqnzpq/TryDax/main/limit/limit.sh && chmod +x limit.sh && ./limit.sh
 
 cd
 wget -q -O /usr/bin/limit-ip "${REPO}limit/limit-ip"
